@@ -1,0 +1,73 @@
+/*Styling*******************************************************************************************/
+html {
+	/*background: url(images/qu.jpg) no-repeat center center fixed;*/
+	font-family: 'Cabin', sans-serif;
+	background-color: rgb(255,255,255);
+}
+
+#name {
+	color: white;
+}
+
+.title {
+	padding-top: 1em; 
+	padding-bottom: 1em;
+	width: 100%;
+
+	text-align: center;
+	box-shadow: 0 0.1em 0.5em rgba(0,0,0,0.7);
+}
+/*Navigation Bar****************************************/
+#navlist {
+	position: fixed;
+	width: 100%;
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+
+	background-color: rgba(30,30,30,0.5);
+}
+
+.navitem {
+	display: inline;
+	margin: 1em;
+}
+
+.button {
+	margin: 0 1em;
+	float: right;
+
+	text-decoration: none;
+	color: white;
+}
+
+#name-button {
+	float: left;
+
+	font-weight: bold;
+}
+
+/*Header**********************************************/
+#header {
+	padding-top: 17.6em;
+	padding-bottom: 17.6em;
+
+
+	webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	text-align: center;
+	background-image: linear-gradient(rgb(10,55,70), rgb(140,160,200));
+	color: rgba(255,255,255,0.9);
+}
+
+.comm {
+	color: white;
+	text-decoration: none;
+}
+/*Reset********************************************************************************************/
+* {
+	margin: 0;
+	padding: 0;
+}
+
