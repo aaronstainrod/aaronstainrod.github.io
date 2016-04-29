@@ -1,46 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
-
+	<!--Site was created using Twitter's Bootstrap and SVGs by Devicon-->
 	<head>
-		<title>Aaron Stainrod</title>
+		<title>Aaron's Stainrod Resume</title>
+		<!--Bootstrap-->
 		<meta charset="utf-8">
-	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	    <meta name="viewport" content="width=device-width, initial-scale=1">
-	    <link href="css/bootstrap.min.css" rel="stylesheet">
-		<link type="text/css" href="css/style.css" rel="stylesheet" />
-		<link href='http://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
-		<script src="js/jquery-1.11.3.min.js"></script>
-	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/app.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<!--Google Font-->
+		<link href='https://fonts.googleapis.com/css?family=Asap' rel='stylesheet' type='text/css'>
+		<!--Devicon Icons-->
+		<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+		<!--Mine-->
+		<link type="text/css" href="css\style.css" rel="stylesheet" />
 	</head>
 
 	<body>
+
 	<!--Navigation Bar-->
-		<section>
-			<div id="navbar">
-				<ul id="navlist">
-					<li class="navitem"><a class="button" id="name-button" href="#header">AaronStainrod</a></li>
-					<!--
-					<li class="navitem"><a class="button" id="about-button" href="#about">About</a></li>
-					<li class="navitem"><a class="button" id="work-button" href="#work">Work</a></li>
-					-->
-				</ul>
-			</div>
-		</section>
+		<div class="navbar navbar-default navbar-fixed-top" id="navigation">
+			<div class="container-fluid">
 
-	<!--Header-->
-		<section>
-			<div id="header">
-				<h1 id="title-header">Aaron Stainrod</h1>
-				<ul>
-					<li></li>
-					<li><p><a class="comm" href="mailto:aaron.stainrod@gmail.com">Email me @ aaron.stainrod@gmail.com</a></p></li>
-					<li><p><a class="comm" href="https://github.com/aaronstainrod">https://github.com/aaronstainrod</a></p></li>
-					<li><p>Under development</p></li>
-				</ul>
+				<div class="navbar-header">
+					<!--Collapses right side on small screen devices-->
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navContent">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+
+					<!--Left side of navbar-->
+					<a class="navbar-brand" href="#">AaronStainrod</a>
+				</div>
+
+				<!--Right side of nav bar-->
+				<div class="collapse navbar-collapse" id="navContent">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#">Languages</a></li>
+						<li><a href="#">Projects</a></li>
+						<li><a href="#">Work</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</div>
+
 			</div>
-		</section>
+		</div>
+
+		<!--Main Panel-->
+		<div class="jumbotron" id="header">
+			<div class="container-fluid text-center">
+
+				<h1>Hi, my name is <em>Aaron</em>.</h1> 
+				<p>I'm an aspiring <strong>front</strong> and <strong>back</strong> end Java/Web developer</p>
+				<p> I enjoy developing web, desktop, and mobile applications</p>
+				<p>Looking for an ambitous developer today? Now you're speaking my (programming) language!</p>
+
+			</div>
+		</div>
+
+		<!--Skills Panel-->
+		<div class="container-fluid text-center panel" id="skills"> 
+			<div class="row">
+
+				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 skill">
+					<img src='svg/java/java-original-wordmark.svg' alt="java">
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 skill">
+					<img src='svg/javascript/javascript-original.svg' alt="javascript">
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 skill">
+					<img src='svg/html5/html5-original-wordmark.svg' alt="html5">
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 skill">
+					<img src='svg/css3/css3-original-wordmark.svg' alt="css3">
+				</div>
+
+
+			</div>
+		</div><br>
+
+		<div class="container text-center panel" id="skills"> 
+			<div class="row">
+
+				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 skill">
+					<img src='svg/jquery/jquery-original-wordmark.svg' alt="jquery">
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 skill">
+					<img src='svg/meteor/meteor-original-wordmark.svg' alt="meteor">
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 skill">
+					<img src='svg/nodejs/nodejs-original-wordmark.svg' alt="nodejs">
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 skill">
+					<img src='svg/mongodb/mongodb-original-wordmark.svg' alt="mongodb">
+				</div>
+
+			</div>
+		</div><br>
+
+		<div class="container-fluid text-center panel" id="skills"> 
+			<div class="row">
+
+				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 skill">
+					<img src='svg/git/git-original-wordmark.svg' alt="git">
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 skill">
+					<img src='svg/github/github-original-wordmark.svg' alt="github">
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 skill">
+					<img src='svg/android/android-original-wordmark.svg' alt="android">
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 skill">
+					<img src='svg/mysql/mysql-original-wordmark.svg' alt="mysql">
+				</div>
+
+			</div>
+		</div><br>
+
+		<div class="container text-center panel" id="skills"> 
+			<div class="row">
+
+				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 skill">
+					<img src='svg/bootstrap/bootstrap-plain-wordmark.svg' alt="bootstrap">
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 skill">
+					<img src='svg/bitbucket/bitbucket-original-wordmark.svg' alt="bitbucket">
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 skill">
+					<img src='svg/linux/linux-plain.svg' alt="linux">
+				</div>
+
+				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 skill">
+					<img src='svg/trello/trello-plain-wordmark.svg' alt="trello">
+				</div>
+
+			</div>
+		</div><br><br>
+
+		<!--Contact Form-->
+		<div class="container-fluid" id="contact">
+			<h3 class="text-center">Contact</h3>
+			<p class="text-center"><em>Let's get in touch!</em></p>
+			<div class="row test">
+
+				<div class="col-md-4">
+					<p><span class="glyphicon glyphicon-map-marker"></span>		Hartford, CT, US</p>
+					<p><span class="glyphicon glyphicon-phone"></span>	Phone: +1 8602499204</p>
+					<p><span class="glyphicon glyphicon-envelope"></span>	Email: aaron.stainrod@gmail.com</p> 
+				</div>
+
+				<div class="col-md-8">
+					<div class="row">
+						<div class="col-sm-6 form-group">
+							<input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-6 form-group">
+					<input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+				</div>
+
+			</div>
+
+			<textarea class="form-control" id="message" name="message" placeholder="Type message here!" rows="5"></textarea>
+
+			<div class="row">
+				<div class="col-md-12 form-group">
+					<button class="btn pull-right" type="submit">Send</button>
+				</div>
+			</div>
+
+		</div>
+
+		<!--Footer-->
+		<footer class="container-fluid text-center" id="footer">
+			<p>Made with Bootstrap</p>
+		</footer>
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js"></script>	
+
 	</body>
-
 </html>
