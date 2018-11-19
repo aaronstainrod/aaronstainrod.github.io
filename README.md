@@ -1,4 +1,3 @@
-# aaronstainrod.github.io
+# sinewave.io
 
-### My website!
-Coming soon to a device near you
+## In progress
